@@ -13,6 +13,7 @@
   background-color: brown;
   color: white;
   font-size: 4rem;
+  grid-row-start: 3;
 }
 .box-2{
   background-color: green;
