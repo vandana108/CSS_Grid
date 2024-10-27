@@ -1,5 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 400;
+ 
+
+}
+h1{
+  text-align: center;
+  text-shadow: 7px, 4px, 7px, rgba(0, 0, 0, 0.25);
+  font-weight: 400px;
+
+}
+.container{
+  width: 300px;
+  background-color: grey;
+ margin-left: 600px;
+  margin: inline 2rem; 
+  display: grid;
+  gap: 2rem;
+}
 .box{
   min-height: 200px;
+  color: white;
+  font-size: 4rem;
+  display: flex;
+  align-items:  center;
+  justify-content: center;
+  border-radius: 8px;
+  margin: 20px  ;
+  margin-bottom: 2rem;
 }
 
 .box-1{
